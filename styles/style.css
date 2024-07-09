@@ -54,50 +54,38 @@ background: rgb(229, 84, 115);
 .featur-image-container{
   height: 550px;
   max-width: 1440px;
-  /* border: 2px solid black; */
   display: flex;
   width: 90%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   flex-direction:column ;
-  /* gap: 10px; */
-  /* justify-content: center;
-  align-items: center; */
 }
 .featur-text{
   text-align: center;
   padding-top: 20px;
-  /* border: 2px solid red; */
 }
 .featur-image{
   display: flex;
-  /* flex-direction: column; */
   height: 400px;
   width: 410px;
   gap: 10px;
-/* height: 428px; */
   margin-top: 65px;
   margin-left:240px ;
-  /* border-radius: 0% 50%; */
-  /* border: 2px solid green; */
 }
 #pink{
   background-color:#f2dee8 ;
   border-radius: 50% 50% 0% 0%;
-  /* gap: 10px; */
 }
 #tora{
   background-color: #daf0f1;
   border-radius: 50% 50% 0% 0%;
-  /* gap: 10px; */
 }
 #yellow{
   background-color: #e4ecdc;
   border-radius: 50% 50% 0% 0%;
-  /* gap: 10px; */
-}.flower-name{
- 
-  display: inline;
-  border: 2px solid green;
+}
+.tree{
+  display: flex;
+  justify-content: space-evenly;
 }
